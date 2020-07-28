@@ -1,0 +1,11 @@
+name: Wishingwater
+version: ${project.version}
+main: fr.medialo.plugins.wishingwater.Wishingwater
+#api-version: 1.16
+softdepend: [vault]
+author: Medialo
+authors: [Medialo]
+description: Make wish every where with water
+commands:
+  wishingwater:
+    description: test
