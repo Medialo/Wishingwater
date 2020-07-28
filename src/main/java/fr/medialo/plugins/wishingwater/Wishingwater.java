@@ -48,10 +48,6 @@ public final class Wishingwater extends JavaPlugin {
         fileConfiguration.set("aside",false);
         fileConfiguration.save();
 
-
-
-        fileConfiguration.createFileAndParents(new File(this.getDataFolder(),"data").toPath(),"lolol.yml");
-//        fileConfiguration.createFileAndParents(new File(this.getDataFolder().getAbsolutePath()+"/test/lol","test.yml"),"eee");
         System.out.println(new File(this.getDataFolder(),"data/azerty").getParent());
         System.out.println(new File(this.getDataFolder(),"test.yml").getAbsolutePath());
         System.out.println(new File(this.getDataFolder(),"tetst/test.yml").getName());
