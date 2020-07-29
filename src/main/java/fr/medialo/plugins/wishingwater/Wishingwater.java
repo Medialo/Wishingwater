@@ -5,17 +5,11 @@ import fr.medialo.plugins.wishingwater.core.WishRegion;
 import fr.medialo.plugins.wishingwater.data.PbmYaml;
 import fr.medialo.plugins.wishingwater.listeners.DropEvent;
 import org.bukkit.Location;
-import org.bukkit.configuration.InvalidConfigurationException;
-import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
-import java.util.Map;
 import java.util.logging.Logger;
 
 public final class Wishingwater extends JavaPlugin {
