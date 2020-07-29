@@ -1,8 +1,5 @@
 package fr.medialo.plugins.wishingwater;
 
-import de.leonhard.storage.Yaml;
-import de.leonhard.storage.internal.FlatFile;
-import de.leonhard.storage.internal.settings.ConfigSettings;
 import fr.medialo.plugins.wishingwater.commands.WishCommand;
 import fr.medialo.plugins.wishingwater.core.WishRegion;
 import fr.medialo.plugins.wishingwater.data.PbmYaml;
