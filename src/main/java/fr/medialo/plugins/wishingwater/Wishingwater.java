@@ -55,6 +55,8 @@ public final class Wishingwater extends JavaPlugin {
         return wishRegionList;
     }
 
+    //to remove
+
     public static void log(String str){
         logggerst.info(str);
     }
