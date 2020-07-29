@@ -40,21 +40,6 @@ public final class Wishingwater extends JavaPlugin {
         fileConfiguration.save();
 
 
-
-
-//        Yaml yamltest = new Yaml(filetest);
-//
-//        yamltest.setConfigSettings(ConfigSettings.PRESERVE_COMMENTS);
-//
-//        yamltest.write();
-//        Map<String,List<String>> maptest = yamltest.getParser().assignCommentsToKey();
-//        for (String stttr : maptest.keySet()) {
-//            Wishingwater.log(" Map -> key : " + stttr);
-//        }
-
-
-
-
         this.getCommand("wishingwater").setExecutor(new WishCommand(this));
         this.getServer().getPluginManager().registerEvents(new DropEvent(this),this);
         wishRegionList = new ArrayList<>();
